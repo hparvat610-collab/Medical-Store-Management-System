@@ -143,7 +143,7 @@ def modify():
     c.commit()
     st = Tk()
     st.title('MODIFY')
-    Label(st, text='-' * 48 + ' MODIFY DATABASE ' + '-' * 48).grid(row=0, column=0, columnspan=6)
+    Label(st, text='-' * 50 + ' MODIFY DATABASE ' + '-' * 48).grid(row=0, column=0, columnspan=6)
 
     def onvsb(*args):
         name_.yview(*args)
