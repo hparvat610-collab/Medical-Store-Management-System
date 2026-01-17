@@ -183,7 +183,7 @@ def res():
     global st, up
     up = Entry(st)
     up.grid(row=2, column=2)
-    Label(st, width=20, text='                         ').grid(row=5, column=i)
+    Label(st, width=30, text='                         ').grid(row=5, column=i)
 
 
 def sel_mn(e):
